@@ -171,3 +171,34 @@ color: white;
 }
 }
 
+header nav ul li {
+    background-color: rgb(194, 124, 124);
+    padding: 15px 
+}
+
+header nav ul li:hover{
+    background-color: red;
+    transform: scale (0.6);
+    box-shadow: 1px 1px 10px rgb(106, 22, 22);
+}
+
+.sale img {
+    width: 70%;
+}
+
+.girar {
+    animation-name: hotsale;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes hotsale {
+    from {
+        transform: scale(0);
+
+    }
+
+    to {
+        transform: rotate (2);
+    }
+}
